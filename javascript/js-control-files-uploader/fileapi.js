@@ -1,4 +1,12 @@
 
+/*
+ * JS Control files uploadер
+ * 
+ * Copyright (c) Dimitar Danailov
+ * Licensed under the MIT License:
+ *   http://www.opensource.org/licenses/mit-license.php
+ */
+
 $.fn.extend(
 {
     file : function(config)

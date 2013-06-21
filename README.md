@@ -3,6 +3,12 @@
 <a href="http://js-control-files-uploader.itweb-projects.com/" target="_blank"
    title="Demo">Demo</a>
 
+<h2>License</h2>
+
+<div>
+Copyright (c) Dimitar Danailov. Licensed under the MIT License : http://www.opensource.org/licenses/mit-license.php 
+</div>
+
 <div>
 This plugin is based on : 
 <ul>
