@@ -50,8 +50,9 @@ This plugin is based on :
     <li>
         For multi upload use multiple attribute
     </li>
+</ul>
 
-    <pre>
+<pre>
 $('input[type="file"]').file(
 {
     /* 
@@ -79,5 +80,4 @@ $('input[type="file"]').file(
         }
     }
 });
-    <pre>
-</ul>
+<pre>
