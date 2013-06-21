@@ -10,6 +10,8 @@ Copyright (c) Dimitar Danailov. Licensed under the MIT License : <a href="http:/
 </div>
 
 <div>
+
+<h2>Javascript APIs</h2>
 This plugin is based on : 
 <ul>
     <li>
