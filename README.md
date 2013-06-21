@@ -51,8 +51,8 @@ This plugin is based on :
         For multi upload use multiple attribute
     </li>
 
-    <li>
-        $('input[type="file"]').file(
+    <pre>
+            $('input[type="file"]').file(
             {
                 upload : true, /*** When input value is change files will be uploaded ***/
                 path : 'uploader.php', /*** Path to Backend ***/
@@ -65,5 +65,5 @@ This plugin is based on :
                     }
                 }
             });
-    <li>
+    <pre>
 </ul>
