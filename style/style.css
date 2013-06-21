@@ -1,0 +1,79 @@
+/* 
+    Document   : style
+    Created on : Jun 21, 2013, 9:29:38 AM
+    Author     : dimitar
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body
+{
+    background-color: #fff;
+
+    text-align: left;
+    line-height: normal;
+    font-size: 62.5%;
+
+    overflow: auto;
+}
+
+.upload-file-button
+{   
+    position: relative;
+    
+    display: block;
+    width: 100px;
+    padding: 0.2em 2em;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.5em;
+    
+    cursor: pointer;
+    
+    text-align: center;
+    
+    -webkit-border-radius: .5em;
+       -moz-border-radius: .5em;
+            border-radius: .5em;
+}
+
+.fileinput-button input 
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    
+    filter: alpha(opacity=0);
+    transform: translate(-300px, 0) scale(4);
+    
+    font-size: 23px;
+    direction: ltr;
+    cursor: pointer;
+}
+
+#responseelement
+{
+    margin-bottom: 1em;
+}
+
+.upload-file-button-text
+{
+    font-weight: bold;
+}
+
+.preview-images ul
+{
+    list-style: none;
+    
+    margin: 0;
+    padding: 0;
+}
+
+#preview-images ul li
+{
+    display: inline;
+    
+    margin: 0 0.5em 0.5em 0;
+}

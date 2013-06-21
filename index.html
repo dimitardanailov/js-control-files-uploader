@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery Control to upload files via Ajax</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <link rel="stylesheet" href="style/style.css" type="text/css" media="all"/>
+        <link rel="stylesheet" href="style/js-control-files-uploader.css" type="text/css" media="all"/>
+        
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        
+        <!-- i18n -->
+        <script type="text/javascript" src="javascript/i18n/en.js"></script>
+        <!-- i18n -->
+        
+        <!-- File Plugin -->
+        <script type="text/javascript" src="javascript/js-control-files-uploader/fileapi.js"></script>
+        <!-- File Plugin -->
+    </head>
+    <body>
+        <div id="responseelement">
+            
+        </div>
+        <form method="post" enctype="multipart/form-data">
+            <span class="upload-file-button fileinput-button" data="upload">
+                <span class="upload-file-button-text">
+                    Choose
+                </span>
+                <input type="file" name="files" multiple/>
+            </span>
+        </form>
+        
+        <div id="preview-images">
+            <ul>
+                
+            </ul>
+        </div>
+        
+        <script type="text/javascript">
+            /*** File Api ***/
+            $('input[type="file"]').file(
+            {
+                upload : true,
+                path : 'uploader.php',
+                maximumFileCount: 20,
+                responseElement: 'responseelement',
+                events : {
+                    preview: {'fileContainer' : 'preview-images', 'width' : 124}
+                }
+            });
+            /*** END File Api ***/
+        </script>
+    </body>
+</html>
