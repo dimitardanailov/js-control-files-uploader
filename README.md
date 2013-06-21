@@ -6,7 +6,7 @@
 <h2>License</h2>
 
 <div>
-Copyright (c) Dimitar Danailov. Licensed under the MIT License : http://www.opensource.org/licenses/mit-license.php 
+Copyright (c) Dimitar Danailov. Licensed under the MIT License : <a href="http://www.opensource.org/licenses/mit-license.php" title="MIT License" target="_blank">http://www.opensource.org/licenses/mit-license.php</a>
 </div>
 
 <div>
@@ -86,4 +86,4 @@ $('input[type="file"]').file(
         }
     }
 });
-<pre>
+</pre>
