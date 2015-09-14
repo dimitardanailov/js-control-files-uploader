@@ -60,7 +60,7 @@ This plugin is based on :
     </li>
 </ul>
 
-<pre>
+```javascript
 $('input[type="file"]').file(
 {
     /* 
@@ -68,19 +68,25 @@ $('input[type="file"]').file(
        If value is false upload will start when form is submitted
     */
     upload : true, // Optional. Default value is true
+
     /* Path to Backend - Optional. If this property is doesn't set path will be get from form action attribute */
     path : 'uploader.php', 
+
     /* id attribute of element for response - Optional */
     responseElement: 'responseelement',
+
     /* Valid file types - Optional. Default value is image.(jpeg|jpg|gif|png) */ 
     'validFileTypes' : 'image.(jpeg|jpg|gif|png)',
+
     /* How many files you can upload in one time  - Optional. Default value is 20 */
     maximumFileCount: 20, 
+
     /* Maximum file size */
-    'maximumFileSize' : {
-                'value' : 2, 
-                'type' : 'mb'
-            },
+		'maximumFileSize' : {
+			'value' : 2, 
+			'type' : 'mb'
+		},
+
     events : {
         preview: {
             'fileContainer' : 'preview-images', /*** id attribute of element for preview ***/
@@ -88,4 +94,4 @@ $('input[type="file"]').file(
         }
     }
 });
-</pre>
+```
