@@ -1,3 +1,4 @@
+*.cache
 .svn
 
 .DS_Store

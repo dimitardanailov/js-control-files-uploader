@@ -1,6 +1,6 @@
 <h1>jQuery File uploader</h1>
 
-<a href="http://js-control-files-uploader.itweb-projects.com/" target="_blank"
+<a href="https://file-upload-ddanailov.firebaseapp.com/" target="_blank"
    title="Demo">Demo</a>
 
 <h2>License</h2>
@@ -94,4 +94,10 @@ $('input[type="file"]').file(
         }
     }
 });
+```
+
+### Firebase deploy
+
+```
+firebase deploy --only hosting:file-upload-ddanailov
 ```
